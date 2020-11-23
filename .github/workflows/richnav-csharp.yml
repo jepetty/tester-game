@@ -28,7 +28,7 @@ jobs:
       run: dotnet restore
       working-directory: ./csharp
       
-    - uses: microsoft/RichCodeNavIndexer@v0.1
+    - uses: jepetty/RichCodeNavIndexer@testCSharpInstall
       with: 
         languages: csharp
         repo-token: ${{ secrets.GITHUB_TOKEN }}
