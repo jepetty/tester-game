@@ -59,7 +59,7 @@ jobs:
       with:
         java-version: 1.8
 
-    - uses: microsoft/RichCodeNavIndexer@v0.1
+    - uses: microsoft/RichCodeNavIndexer@master
       with: 
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         languages: csharp,java,typescript,cpp
